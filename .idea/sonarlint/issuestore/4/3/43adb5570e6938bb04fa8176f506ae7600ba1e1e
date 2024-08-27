@@ -1,0 +1,12 @@
+
+d
+java:S11929"GDefine a constant instead of duplicating this literal "places" 5 times.(Ğ€†¨8¶×Ã™2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à–ù¦ıÿÿÿÿ8¹×Ã™2
+L	java:S106"+Replace this use of System.err by a logger.(ÌÏşïüÿÿÿÿ8ç×Ã™2
+L	java:S106 "+Replace this use of System.err by a logger.(Ü­·Ìüÿÿÿÿ8ì×Ã™2
+G	java:S106/"+Replace this use of System.err by a logger.(…¡ä™8ï×Ã™2
+L	java:S106="+Replace this use of System.err by a logger.(Ü¯Áæÿÿÿÿÿ8ó×Ã™2
+L	java:S106L"+Replace this use of System.err by a logger.(¤“¨Şûÿÿÿÿ8ö×Ã™2
+L	java:S106Z"+Replace this use of System.err by a logger.(Šò¤ıÿÿÿÿ8ú×Ã™2
+L	java:S106h"+Replace this use of System.err by a logger.(ÎÇĞšùÿÿÿÿ8ş×Ã™2
+G	java:S106v"+Replace this use of System.err by a logger.(½½Î8‚ØÃ™2
