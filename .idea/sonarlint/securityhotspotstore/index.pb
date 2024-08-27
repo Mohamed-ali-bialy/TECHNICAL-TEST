@@ -24,3 +24,8 @@ Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 Å
 Q.idea/sonarlint/securityhotspotstore/4/3/438c56474209176629917f1aaaac4e1cf31f765e,3\2\32963aeda7d79c65f84f85e7873871133b9300f5
+:
+
+TestNg.xml,9\8\982631b454e0026b89deed9dcf3062869a21f10e
+[
++src/main/java/Package/SystemProparties.java,a\1\a1c2312fb7772fe558018ecea78fdaea7ca0fe6b
