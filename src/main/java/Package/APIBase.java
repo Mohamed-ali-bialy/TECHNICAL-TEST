@@ -8,10 +8,9 @@ import org.testng.Assert;
 import static io.restassured.RestAssured.given;
 
 public class APIBase {
-
-    String Baselink="https://api.zippopotam.us/";
+    SystemProparties systemProparties = new SystemProparties();
     public String GET(String EndPoint, String jsonBody, String bearerToken, String cookie) {
-        RestAssured.baseURI = Baselink;
+        RestAssured.baseURI = systemProparties.getBaseUrl();
         Response response = given()
                 .cookie(String.valueOf(cookie))
                 .headers(

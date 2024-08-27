@@ -1,9 +1,8 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÏ™ûÿÿÿÿ8ç£€™2
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï˜—›øÿÿÿÿ8° €™2
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à–ù¦ıÿÿÿÿ8é£€™2
-t	java:S116"SRename this field "Baselink" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¸Úåşÿÿÿÿ8ı£€™2
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÏ™ûÿÿÿÿ8¤€™2
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÏ™ûÿÿÿÿ8€É¬™2
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï˜—›øÿÿÿÿ8É¬™2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à–ù¦ıÿÿÿÿ8ƒÉ¬™2
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÏ™ûÿÿÿÿ8×Ş„¬™2
 S
-java:S2696"6Make the enclosing method "static" or remove this set.(†Ê’¹8‚¤€™2
-X	java:S125"<This block of commented-out lines of code should be removed.(ççè8Ÿø§€™2
+java:S2696"6Make the enclosing method "static" or remove this set.(¸º¨Ö8ÙŞ„¬™2
+X	java:S125"<This block of commented-out lines of code should be removed.(ççè8ŞŞ„¬™2

@@ -1,5 +1,6 @@
 package org.example;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import Package.*;
 
@@ -36,6 +37,12 @@ public class AppTest
         System.out.println("state Abbreviation Is :" +stateAbbreviation);
         System.out.println("latitude Is :" +latitude);
 
+
+    }
+
+    @Test
+    public void Test2(){
+        Assert.assertTrue(false,"false");
 
     }
 }
