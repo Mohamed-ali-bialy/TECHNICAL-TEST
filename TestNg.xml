@@ -7,10 +7,6 @@
         <test name="Test Class" >
             <classes>
                 <class name="Tests.ApiTechnicalTest">
-                    <methods>
-                        <include name="Test"/>
-                        <include name="Test2"/>
-                    </methods>
                 </class>
             </classes>
         </test>

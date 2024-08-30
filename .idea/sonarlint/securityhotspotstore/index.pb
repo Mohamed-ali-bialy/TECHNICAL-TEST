@@ -29,3 +29,11 @@ Q.idea/sonarlint/securityhotspotstore/4/3/438c56474209176629917f1aaaac4e1cf31f76
 TestNg.xml,9\8\982631b454e0026b89deed9dcf3062869a21f10e
 [
 +src/main/java/Package/SystemProparties.java,a\1\a1c2312fb7772fe558018ecea78fdaea7ca0fe6b
+Y
+)src/test/java/Tests/ApiTechnicalTest.java,4\d\4dd14ede727c988d5d1057e3b1ea91ceaa562342
+c
+3src/main/java/ApiPackage/SystemPropertiesClass.java,e\a\ea5b79f55a22c49d9e263e43c0fae4b8f280f4c6
+T
+$src/main/java/ApiPackage/Helper.java,9\7\97229a0b30132dce9afba66bbe06eced948d3090
+U
+%src/main/java/ApiPackage/APIBase.java,7\f\7f9c749798cf00331cbdced597256117a16d9bef
