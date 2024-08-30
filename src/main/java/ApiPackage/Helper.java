@@ -1,10 +1,17 @@
-package Package;
+package ApiPackage;
 
+import io.restassured.response.Response;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONException;
 
-public class Helper {
+public class Helper extends APIBase {
+
+    public Response callGetCountryAndPostCodeAPI(String country, String postalCode, String jsonBody
+            , String bearerToken, String cookie) {
+        String endPoint = country + "/" + postalCode;
+        return getRequest(endPoint, jsonBody, bearerToken, cookie);
+    }
 
     public String getCountryFromJsonResponse(String jsonResponse) {
         if (jsonResponse == null || jsonResponse.isEmpty()) {
@@ -48,6 +55,7 @@ public class Helper {
             return null;
         }
     }
+
     public String getPlaceNameFromJsonResponse(String jsonResponse) {
         if (jsonResponse == null || jsonResponse.isEmpty()) {
             return null;
@@ -77,6 +85,7 @@ public class Helper {
             return null;
         }
     }
+
     public String getStateFromJsonResponse(String jsonResponse) {
         if (jsonResponse == null || jsonResponse.isEmpty()) {
             return null;
@@ -91,6 +100,7 @@ public class Helper {
             return null;
         }
     }
+
     public String getStateAbbreviationFromJsonResponse(String jsonResponse) {
         if (jsonResponse == null || jsonResponse.isEmpty()) {
             return null;
@@ -105,6 +115,7 @@ public class Helper {
             return null;
         }
     }
+
     public String getLatitudeFromJsonResponse(String jsonResponse) {
         if (jsonResponse == null || jsonResponse.isEmpty()) {
             return null;
@@ -119,9 +130,6 @@ public class Helper {
             return null;
         }
     }
-
-
-
 
 
 }
