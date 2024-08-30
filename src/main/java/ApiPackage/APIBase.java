@@ -1,16 +1,13 @@
-package Package;
+package ApiPackage;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.testng.Assert;
-
 import static io.restassured.RestAssured.given;
 
-public class APIBase {
-    SystemProparties systemProparties = new SystemProparties();
-    public String GET(String EndPoint, String jsonBody, String bearerToken, String cookie) {
-        RestAssured.baseURI = systemProparties.getBaseUrl();
+public class APIBase extends SystemPropertiesClass {
+    public Response getRequest(String endPoint, String jsonBody, String bearerToken, String cookie) {
+        RestAssured.baseURI = getBaseUrl();
         Response response = given()
                 .cookie(String.valueOf(cookie))
                 .headers(
@@ -23,16 +20,11 @@ public class APIBase {
                         ContentType.JSON)
                 .when()
                 .body(jsonBody)
-                .get(EndPoint)
+                .get(endPoint)
                 .then()
                 .extract().response();
-//        System.out.printf("Time is %s for %s EndPoint %s%n", response.getTime(), "GET", EndPoint);
-        int  StautsCode =  response.getStatusCode();
-        Assert.assertEquals(StautsCode,200,"Response Status code is not 200");
-        return response.getBody().asPrettyString();
+
+
+        return response;
     }
-
-
-
-
 }
